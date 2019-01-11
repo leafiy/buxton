@@ -1,0 +1,24 @@
+{
+  "name": "js-utils",
+  "version": "0.1.2",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ext .js . --fix",
+    "release": "standard-version",
+    "publish-dev": "yarn run lint && git add . && git push",
+    "publish-master": "standard-version && git cz  && git push"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard-version": "^4.4.0"
+  }
+}
