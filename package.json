@@ -2,11 +2,12 @@
   "name": "js-utils",
   "version": "0.1.2",
   "private": false,
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js . --fix",
     "release": "standard-version",
-    "publish-dev": "yarn run lint && git add . && git push",
-    "publish-master": "standard-version && git cz  && git push"
+    "publish-dev": "yarn run lint && git add . && git cz",
+    "publish-master": "standard-version && git push"
   },
   "dependencies": {},
   "devDependencies": {
