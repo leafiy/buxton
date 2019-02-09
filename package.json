@@ -5,7 +5,7 @@
   "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js . --fix",
-    "release": "standard-version",
+    "release": "npm publish",
     "publish-dev": "yarn run lint && git add . && git cz",
     "publish-master": "standard-version  -r patch && git push"
   },
