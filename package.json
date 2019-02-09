@@ -1,13 +1,13 @@
 {
   "name": "js-utils",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js . --fix",
     "release": "standard-version",
     "publish-dev": "yarn run lint && git add . && git cz",
-    "publish-master": "standard-version && git push"
+    "publish-master": "standard-version  -r patch && git push"
   },
   "dependencies": {},
   "devDependencies": {
