@@ -1,0 +1,1 @@
+export default /^[A-Za-z0-9_._\u4e00-\u9fa5_\。_\、_\@]+$/
