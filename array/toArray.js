@@ -1,4 +1,7 @@
 const toArray = (value, split = " ") => {
+    if (!value) {
+        return []
+    }
     if (typeof value === 'string') {
         value = value.split(split)
     }
