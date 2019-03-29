@@ -1,7 +1,3 @@
-let isIOS = false
-if (typeof window !== 'undefined' && typeof navigator !== 'undefined') {
-  isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
-}
+const isIos = () => navigator.platform.match(/(iPhone|iPod|iPad)/i) ? true : false
 
-
-export default isIOS
+export default isIos
