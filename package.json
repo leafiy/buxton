@@ -1,6 +1,6 @@
 {
   "name": "buxton",
-  "version": "0.2.19",
+  "version": "0.2.20",
   "private": false,
   "main": "./index.js",
   "scripts": {
