@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.22"></a>
+## 0.2.22 (2019-04-24)
+
+
+### Features
+
+* **browser:** add isIos ([8b0adf2](https://github.com/leafiy/buxton/commit/8b0adf2))
+* **dom methods:** add some dom methods ([aec3078](https://github.com/leafiy/buxton/commit/aec3078))
+* **promise:** reflect ([50a0e59](https://github.com/leafiy/buxton/commit/50a0e59))
+
+
+
 <a name="0.2.21"></a>
 ## [0.2.21](https://github.com/leafiy/buxton/compare/v0.2.19...v0.2.21) (2019-04-17)
 
