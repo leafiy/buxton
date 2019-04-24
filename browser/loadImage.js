@@ -16,6 +16,7 @@ const loadImage = function(src, timeout) {
       img.onload = img.onabort = img.onerror = function() {};
       clearTimeout(timer)
       reject(err instanceof Error ? err : new Error('failed'))
+      img.src = ''
     }
 
 
