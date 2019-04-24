@@ -1,12 +1,19 @@
-const race = function(timeout, cb) {
-  return Promise.race([
-    new Promise(cb),
-    new Promise(function(resolve, reject) {
-      setTimeout(function() {
-        reject('Timed out');
-      }, timeout);
-    })
-  ]);
+const race = function(timeout, promise) {
+  return new Promise(function(resolve, reject) {
+    let timer = setTimeout(function() {
+      reject(new Error("timeout"));
+    }, timeout);
+
+    promise
+      .then(function(res) {
+        clearTimeout(timer);
+        resolve(res);
+      })
+      .catch(function(err) {
+        clearTimeout(timer);
+        reject(err);
+      });
+  });
 }
 
 export default race
