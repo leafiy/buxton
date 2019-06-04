@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.28"></a>
+## 0.2.28 (2019-06-04)
+
+
+### Features
+
+* process oss image ([8ed0644](https://github.com/leafiy/buxton/commit/8ed0644))
+* **browser:** add isIos ([8b0adf2](https://github.com/leafiy/buxton/commit/8b0adf2))
+* **dom methods:** add some dom methods ([aec3078](https://github.com/leafiy/buxton/commit/aec3078))
+* **promise:** reflect ([50a0e59](https://github.com/leafiy/buxton/commit/50a0e59))
+
+
+
 <a name="0.2.27"></a>
 ## 0.2.27 (2019-05-11)
 
